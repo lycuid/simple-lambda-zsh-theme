@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+# !/usr/bin/env zsh
 
 LAMBDA="%(?,%{$fg_bold[green]%}λ,%{$fg_bold[red]%}λ)%{$reset_color%}"
 
@@ -40,7 +40,7 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg_bold[red]%}?%{$reset_color%}"
 PROMPT=$'\n''%{$fg[white]%}%n\
 %{$fg[blue]%}@\
 %{$fg[white]%}%m:\
-%{$fg_no_bold[magenta]%}%4~%{$reset_color%} \
+%{$fg_no_bold[magenta]%}%3~%{$reset_color%} \
 $(get_git_prompt_info)\
 %{$reset_color%}'
 
